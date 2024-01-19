@@ -1,0 +1,52 @@
+:root {
+  --rich-blue-50: #3e54d3;
+  --azure-blue-50: #4f80e2;
+  --sea-green-50: #15cdca;
+  --aquamarine-50: #4fe0b6;
+  --night-40: #28292e;
+  --night-50: #212226;
+  --night-60: #1a1a1e;
+  --white: #ffffff;
+  --white-50: #ffffff7f;
+
+  --spacing-0: 0;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 32px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-14: 56px;
+  --spacing-16: 64px;
+  --spacing-24: 96px;
+
+  --movie-card-radius: 8px;
+  --movie-genre-pill: 24px;
+
+  --gutters: var(--spacing-7);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--night-50);
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+h1,
+h3,
+p {
+  margin: var(--spacing-0);
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
