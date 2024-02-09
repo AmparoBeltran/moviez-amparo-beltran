@@ -185,6 +185,7 @@ main {
 .genres {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .movie-details {
